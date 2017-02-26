@@ -54,5 +54,11 @@ def get_makes(api, year=None, state=None, view=None):
 	return response
 
 if __name__ == "__main__":
-	api = Edmunds('YOUR API KEY', True) # True indicates debug mode is ON
-	print get_makes(api, '2013', 'new')
+
+	import yaml
+
+	credentials = yaml.load(open(os.path.expanduser('~/edmunds_api_cred.yml')))
+	creds = credentials['edmunds']
+
+	api = Edmunds(creds.get('Key'), True) # True indicates debug mode is ON
+	print get_makes(api, '2016', 'new', view='full')
