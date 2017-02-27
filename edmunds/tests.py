@@ -17,6 +17,6 @@ assert api.make_call('ERROR') == None
 
 # Test 3: Correct URL Path
 # Check that makesCount key is in response
-assert 'makesCount' in api.make_call('/api/vehicle/v2/makes/count') 
+assert 'makesCount' in api.make_call('/api/vehicle/v2/makes/count')
 
 print "All tests passed!"
