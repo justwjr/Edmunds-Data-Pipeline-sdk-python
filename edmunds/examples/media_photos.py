@@ -138,4 +138,3 @@ if __name__ == '__main__':
     api = Edmunds(creds.get('Key'), True)  # True indicates debug mode is ON
 
     print get_model_s_photos(api)
-
