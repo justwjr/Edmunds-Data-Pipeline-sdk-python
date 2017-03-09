@@ -1,10 +1,36 @@
+https://s3-us-west-1.amazonaws.com/edmundssparksubmitresults/topVehicles.html
+
+https://www.gliffy.com/go/publish/11854628
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Edmunds API Python Wrapper
 
 This is an awesome Python 2 wrapper for the [Edmunds.com API](http://developer.edmunds.com/api-documentation/overview/index.html).
-The Edmunds.com API provides automative data including [vehicle specs](http://developer.edmunds.com/api-documentation/vehicle/), 
-[pricing](http://developer.edmunds.com/api-documentation/vehicle/price_tmv/v1/), [media](http://developer.edmunds.com/api-documentation/vehicle/media_photos/v1/), 
-[reviews](http://developer.edmunds.com/api-documentation/vehicle/content_ratings_and_reviews/v2/), and [more](http://developer.edmunds.com/api-documentation/overview/index.html#sec-6). 
-There are also Edmunds API endpoints for [dealership information](http://developer.edmunds.com/api-documentation/dealer/) 
+The Edmunds.com API provides automative data including [vehicle specs](http://developer.edmunds.com/api-documentation/vehicle/),
+[pricing](http://developer.edmunds.com/api-documentation/vehicle/price_tmv/v1/), [media](http://developer.edmunds.com/api-documentation/vehicle/media_photos/v1/),
+[reviews](http://developer.edmunds.com/api-documentation/vehicle/content_ratings_and_reviews/v2/), and [more](http://developer.edmunds.com/api-documentation/overview/index.html#sec-6).
+There are also Edmunds API endpoints for [dealership information](http://developer.edmunds.com/api-documentation/dealer/)
 and [Edmunds editorial content](http://developer.edmunds.com/api-documentation/editorial/).
 
 ## Usage
@@ -15,7 +41,7 @@ api = Edmunds('YOUR API KEY') # use Edmunds('YOUR API KEY', True) for debug mode
 ```
 
 Make API calls to any endpoint, get a JSON object returned.
-For example, get the [style details](http://developer.edmunds.com/api-documentation/vehicle/spec_style/v2/01_by_mmy/api-description.html) 
+For example, get the [style details](http://developer.edmunds.com/api-documentation/vehicle/spec_style/v2/01_by_mmy/api-description.html)
 for the 2011 Lexus RX 350:
 ```python
 >>> response = api.make_call('/api/vehicle/v2/lexus/rx350/2011/styles')
@@ -41,7 +67,7 @@ for the 2011 Lexus RX 350:
  u'stylesCount': 2}
 ```
 
-Get [photos](http://developer.edmunds.com/api-documentation/vehicle/media_photos/v1/) 
+Get [photos](http://developer.edmunds.com/api-documentation/vehicle/media_photos/v1/)
 for the style ID 3883 (1990 Honda Civic 2dr Hatchback):
 ```python
 >>> response = api.make_call('/v1/api/vehiclephoto/service/findphotosbystyleid', comparator='simple', styleId='3883')
@@ -66,7 +92,7 @@ for the style ID 3883 (1990 Honda Civic 2dr Hatchback):
   u'type': u'PHOTOS'}]
 ```
 
-## Installation 
+## Installation
 
 The Edmunds API Python wrapper requires the amazing [requests library](http://docs.python-requests.org/en/latest/).
 Here are the [installation instructions](http://docs.python-requests.org/en/latest/user/install/#install) and the
@@ -84,7 +110,7 @@ or just click "Clone in Desktop" or "Download ZIP"
 ![Install](https://photos-2.dropbox.com/t/0/AAAwB573IRFx7wrFhdmUilGQBgIcSTEjKFIoQ2sf1XsNMw/12/16428977/png/1024x768/3/1397286000/0/2/Screenshot%202014-04-12%2013.29.55.png/Aacyj_dQNGVCjJbyiazWcdk6538H61urhhFak44v-FA)
 
 
-Notes: 
+Notes:
 * Using pip to install this package will atuomatically install the requests library
 * The files (edmunds.py and tests.py) will be installed to your Python site-packages folder
 * It is suggested you then clone the repository (using the second command) in order to download all of the files to your computer and so that you can insert your API Key into the edmunds.py code
