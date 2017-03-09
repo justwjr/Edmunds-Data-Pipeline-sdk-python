@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f375e0-903a-4395-8418-ffd206411673" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark_dataframe_edmunds.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edmunds_spark_dataframe.ipynb" afterPath="$PROJECT_DIR$/edmunds_spark_dataframe.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark_results_boto.py" afterPath="$PROJECT_DIR$/spark_results_boto.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topVehicles.html" afterPath="$PROJECT_DIR$/topVehicles.html" />
-    </list>
+    <list default="true" id="41f375e0-903a-4395-8418-ffd206411673" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edmunds_firehose.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edmunds_firehose.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
                 <element signature="e#648#660#0" expanded="true" />
               </folding>
@@ -47,8 +41,8 @@
       <file leaf-file-name="spark_results_boto.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark_results_boto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
                 <element signature="e#167#177#0" expanded="true" />
               </folding>
@@ -56,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spark_dataframe_edmunds.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spark_dataframe_edmunds.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark_dataframe_edmunds.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="417" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
                 <element signature="e#837#866#0" expanded="true" />
                 <marker date="1489035996000" expanded="true" signature="2681:2768" ph="SELECT m.id,... MODEL" />
@@ -69,16 +63,6 @@
                 <marker date="1489035996000" expanded="true" signature="5415:5612" ph="SELECT m.id,... ALL_MODELS" />
                 <marker date="1489035996000" expanded="true" signature="5762:6037" ph="SELECT m.id,... ALL_MODELS" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitter_stream.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DSCI6007-student/7.3 - Structured Streaming/twitter_stream.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -403,7 +387,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="753" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="753" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17932148" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -455,39 +439,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="e#648#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DSCI6007-student/7.3 - Structured Streaming/twitter_stream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DSCI6007-student/7.3 - Structured Streaming/spark-streaming-lab.py" />
     <entry file="file://$PROJECT_DIR$/spark_results_boto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
             <element signature="e#167#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../DSCI6007-student/7.3 - Structured Streaming/twitter_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spark_dataframe_edmunds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="417" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <element signature="e#837#866#0" expanded="true" />
             <marker date="1489035996000" expanded="true" signature="2681:2768" ph="SELECT m.id,... MODEL" />
@@ -495,6 +469,16 @@
             <marker date="1489035996000" expanded="true" signature="5045:5218" ph="SELECT m.id,... ALL_MODELS" />
             <marker date="1489035996000" expanded="true" signature="5415:5612" ph="SELECT m.id,... ALL_MODELS" />
             <marker date="1489035996000" expanded="true" signature="5762:6037" ph="SELECT m.id,... ALL_MODELS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <element signature="e#648#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
