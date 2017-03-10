@@ -63,9 +63,8 @@ def main():
 
         html = "<!DOCTYPE html><html><body>{}</body></html>".format(top_html.encode('utf-8'))
         results = open("topVehicles.html", 'w')
-        results.write('<div style="background-image:url(https://raw.githubusercontent.com/justwjr/Edmunds-Car-Data'
-                      '-Pipeline-sdk-python/master/images/minato_firefox.png '
-                      ');width:300px;height:200px;">')
+        results.write('<div style="background-image:url(https://github.com/justwjr/Edmunds-Car-Data-Pipeline-sdk-python/blob/master/images/minato_firefox.png?raw=true'
+                      ');background-repeat:repeat;">')
         results.write("Last Updated: " + pacific_time.strftime('%A, %B, %d %Y %H:%M:%S') + " Pacific Time")
         results.write(
             "<hr>Hi!  This webpage shows counts of body styles in the database and the number of years for each "
