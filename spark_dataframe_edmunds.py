@@ -63,14 +63,15 @@ def main():
 
         html = "<!DOCTYPE html><html><body>{}</body></html>".format(top_html.encode('utf-8'))
         results = open("topVehicles.html", 'w')
+        results.write('<div style="background-image:url(https://raw.githubusercontent.com/justwjr/Edmunds-Car-Data'
+                      '-Pipeline-sdk-python/master/images/minato_firefox.png '
+                      ');width:300px;height:200px;">')
         results.write("Last Updated: " + pacific_time.strftime('%A, %B, %d %Y %H:%M:%S') + " Pacific Time")
         results.write(
             "<hr>Hi!  This webpage shows counts of body styles in the database and the number of years for each "
             "model.<br>It serves as the front end of my Edmunds car data pipeline.  - Justin J. Wang<hr>")
         results.write(html)
-        results.write('<div style="background-image:url(http://www.html.am/images/image-codes/milford_sound_t.jpg'
-                      ');width:300px;height:200px;color:black;font-size:18px;">This text appears in front of a '
-                      'repeating background image.</div>')
+        results.write('</div>')
         results.close()
 
     except Exception as e:

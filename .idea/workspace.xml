@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f375e0-903a-4395-8418-ffd206411673" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark_dataframe_edmunds.py" afterPath="$PROJECT_DIR$/spark_dataframe_edmunds.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,49 +27,7 @@
     <favorites_list name="Edmunds-Car-Data-Pipeline-sdk-python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edmunds_firehose.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#648#660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spark_results_boto.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark_results_boto.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spark_dataframe_edmunds.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark_dataframe_edmunds.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="47" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#69#0" expanded="true" />
-                <marker date="1489127933000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
-                <marker date="1489127933000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
-                <marker date="1489127933000" expanded="true" signature="6513:6602" ph="SELECT m.id,... MODEL" />
-                <marker date="1489127933000" expanded="true" signature="8721:8898" ph="SELECT m.id,... ALL_MODELS" />
-                <marker date="1489127933000" expanded="true" signature="8997:9176" ph="SELECT m.id,... ALL_MODELS" />
-                <marker date="1489127933000" expanded="true" signature="9397:9604" ph="SELECT m.id,... ALL_MODELS" />
-                <marker date="1489127933000" expanded="true" signature="9769:10056" ph="SELECT m.id,... ALL_MODELS" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -391,7 +348,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="753" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18416801" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -438,7 +395,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#167#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,13 +407,13 @@
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="e#17#69#0" expanded="true" />
-            <marker date="1489127933000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="6513:6602" ph="SELECT m.id,... MODEL" />
-            <marker date="1489127933000" expanded="true" signature="8721:8898" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="8997:9176" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9397:9604" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9769:10056" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="6508:6597" ph="SELECT m.id,... MODEL" />
+            <marker date="1489128847000" expanded="true" signature="8716:8893" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="8992:9171" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9392:9599" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9764:10051" ph="SELECT m.id,... ALL_MODELS" />
           </folding>
         </state>
       </provider>
@@ -473,7 +432,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#167#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,13 +444,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#69#0" expanded="true" />
-            <marker date="1489127933000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="6513:6602" ph="SELECT m.id,... MODEL" />
-            <marker date="1489127933000" expanded="true" signature="8721:8898" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="8997:9176" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9397:9604" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9769:10056" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="6508:6597" ph="SELECT m.id,... MODEL" />
+            <marker date="1489128847000" expanded="true" signature="8716:8893" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="8992:9171" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9392:9599" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9764:10051" ph="SELECT m.id,... ALL_MODELS" />
           </folding>
         </state>
       </provider>
@@ -519,37 +480,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
+    <entry file="file://$PROJECT_DIR$/spark_dataframe_edmunds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <element signature="e#648#660#0" expanded="true" />
+            <element signature="e#17#69#0" expanded="true" />
+            <marker date="1489128847000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="6508:6597" ph="SELECT m.id,... MODEL" />
+            <marker date="1489128847000" expanded="true" signature="8716:8893" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="8992:9171" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9392:9599" ph="SELECT m.id,... ALL_MODELS" />
+            <marker date="1489128847000" expanded="true" signature="9764:10051" ph="SELECT m.id,... ALL_MODELS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_results_boto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#167#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark_dataframe_edmunds.py">
+    <entry file="file://$PROJECT_DIR$/edmunds_firehose.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="47" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="e#17#69#0" expanded="true" />
-            <marker date="1489127933000" expanded="true" signature="1458:1655" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="1710:1985" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="6513:6602" ph="SELECT m.id,... MODEL" />
-            <marker date="1489127933000" expanded="true" signature="8721:8898" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="8997:9176" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9397:9604" ph="SELECT m.id,... ALL_MODELS" />
-            <marker date="1489127933000" expanded="true" signature="9769:10056" ph="SELECT m.id,... ALL_MODELS" />
+            <element signature="e#648#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
