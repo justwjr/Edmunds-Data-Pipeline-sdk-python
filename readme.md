@@ -42,3 +42,5 @@ https://www.gliffy.com/go/publish/11854628
 # Debuggability
 
   Errors get printed to the log and can also get stored as objects, making things easy to debug.  It can be further improved by using a Lambda Architecture and functional batch layer, using recomputation algorithms when possible.
+  
+https://databricks.com/glossary/lambda-architecture
