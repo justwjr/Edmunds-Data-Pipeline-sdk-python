@@ -26,7 +26,7 @@ https://www.gliffy.com/go/publish/11854628
 
 # Extensibility
 
-  The system can be easily extended, the flowchart can be modified to add new features.  To further extend this application, we could gather data from of the prices and dealer inventory information to augment the vehicle data.  The main limitation though is that the exploratory tier has a maximum limit of 25 API calls per day.
+  The system can be easily extended, the flowchart can be modified to add new features.  To further extend this application, we could gather data from the prices and dealer inventory information to augment the vehicle data.  The main limitation though is that the Edmunds API exploratory tier has a maximum limit of 25 API calls per day.
   
 
 # Ad hoc queries
@@ -36,9 +36,9 @@ https://www.gliffy.com/go/publish/11854628
 
 # Minimal maintenance
 
-  The Kinesis firehose runs every hour on an EC2 instance automatically.  Errors get logged as objects, so they don't inturrupt the process.  To keep things simple, all the SQL requirements are done using Spark SQL and the results ouput to an html file.
-  An update to the webpage requires running a program on a local machine to fetch the updated html file and push changes.
+  The Kinesis firehose runs every hour on an EC2 instance automatically.  Errors get logged as objects, so they don't inturrupt the process.  To keep things simple, all the SQL requirements are done using Spark SQL and the results output to an html file.
+  An update to the webpage requires running a program on a local machine to fetch the updated html file and push changes.  Moving all scripts to cloud instances would be better than having to rely on a local laptop.
 
 # Debuggability
 
-  Errors get printed the log and also can get stored as objects, making things easy to debug.  It can be further improved by using a Lambda Architecture and functional batch layer, using recomputation algorithms when possible.
+  Errors get printed to the log and can also get stored as objects, making things easy to debug.  It can be further improved by using a Lambda Architecture and functional batch layer, using recomputation algorithms when possible.
