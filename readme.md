@@ -1,10 +1,10 @@
 https://s3-us-west-1.amazonaws.com/edmundssparksubmitresults/topVehicles.html
 
-https://github.com/justwjr/Edmunds-Car-Data-Pipeline-sdk-python/blob/master/images/ARCHITECTURE_DIAGRAM.png?raw=true
+https://github.com/byukan/Edmunds-Car-Data-Pipeline-sdk-python/blob/master/images/ARCHITECTURE_DIAGRAM.png?raw=true
 
 https://www.gliffy.com/go/publish/11854628
 
-![](https://github.com/justwjr/Edmunds-Car-Data-Pipeline-sdk-python/blob/master/images/ARCHITECTURE_DIAGRAM.png?raw=true)
+![](https://github.com/byukan/Edmunds-Car-Data-Pipeline-sdk-python/blob/master/images/ARCHITECTURE_DIAGRAM.png?raw=true)
 
 # Robustness and fault tolerance
 
